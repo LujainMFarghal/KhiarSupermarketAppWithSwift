@@ -1,0 +1,1 @@
+Beef,pork,lamb,meat,Chicken,turkey,goose,duck,quail,fish,anchovies,shrimp,squid,scallops, calamari,mussels,crab,lobster,fish sauce,Eggs,Egg,Cheese,butter,Milk,yogurt,cheese,butter, cream,ice cream,sour cream,Mayonnaise,Honey,bee pollen,royal jelly,E120,E322,E422,E471, E542,E631,E901,E904,Gelatin,COCHINEAL,CARMINE,ISINGLASS,castoreum

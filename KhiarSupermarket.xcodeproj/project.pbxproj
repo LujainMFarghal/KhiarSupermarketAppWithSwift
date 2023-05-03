@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B03A4C529BFA16200288DE3 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B03A4C429BFA16200288DE3 /* UserProfileViewController.swift */; };
+		0B03A4C729C25CE500288DE3 /* HealthInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B03A4C629C25CE500288DE3 /* HealthInfoViewController.swift */; };
+		0B03A4C929C5E4E200288DE3 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B03A4C829C5E4E200288DE3 /* ProductsViewController.swift */; };
+		0B03A4CB29C60D4400288DE3 /* CustomerProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B03A4CA29C60D4400288DE3 /* CustomerProductCollectionViewCell.swift */; };
+		0B10098029B9FC060045B329 /* ProductIngredientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B10097F29B9FC060045B329 /* ProductIngredientsViewController.swift */; };
+		0B11A50529AE81400007A7DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B11A50429AE81400007A7DD /* AppDelegate.swift */; };
+		0B11A50729AE81400007A7DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B11A50629AE81400007A7DD /* SceneDelegate.swift */; };
+		0B11A50929AE81400007A7DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B11A50829AE81400007A7DD /* ViewController.swift */; };
+		0B11A50C29AE81400007A7DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B11A50A29AE81400007A7DD /* Main.storyboard */; };
+		0B11A50E29AE81400007A7DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B11A50D29AE81400007A7DD /* Assets.xcassets */; };
+		0B11A51129AE81400007A7DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B11A50F29AE81400007A7DD /* LaunchScreen.storyboard */; };
+		0B11A51C29AE81410007A7DD /* KhiarSupermarketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B11A51B29AE81410007A7DD /* KhiarSupermarketTests.swift */; };
+		0B11A52629AE81410007A7DD /* KhiarSupermarketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B11A52529AE81410007A7DD /* KhiarSupermarketUITests.swift */; };
+		0B11A52829AE81410007A7DD /* KhiarSupermarketUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B11A52729AE81410007A7DD /* KhiarSupermarketUITestsLaunchTests.swift */; };
+		0B2597CE29E8A2EB00060460 /* SearchedProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2597CD29E8A2EB00060460 /* SearchedProductViewController.swift */; };
+		0B268EB829B0C30100A7DE2D /* ManagerInterfaces.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B268EB729B0C30100A7DE2D /* ManagerInterfaces.storyboard */; };
+		0B268EBA29B0D15400A7DE2D /* AddProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B268EB929B0D15400A7DE2D /* AddProductViewController.swift */; };
+		0B268EBC29B1096500A7DE2D /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B268EBB29B1096500A7DE2D /* HomePageViewController.swift */; };
+		0B268EBF29B130E000A7DE2D /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 0B268EBE29B130E000A7DE2D /* FirebaseDatabase */; };
+		0B3DA0A629AFCD8E0041A1E4 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3DA0A529AFCD8D0041A1E4 /* SignInViewController.swift */; };
+		0B3DA0AC29AFD4090041A1E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B3DA0AB29AFD4090041A1E4 /* GoogleService-Info.plist */; };
+		0B3DA0AF29AFD5A10041A1E4 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 0B3DA0AE29AFD5A10041A1E4 /* FirebaseAuth */; };
+		0B3DA0B129AFF05D0041A1E4 /* UtilityFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3DA0B029AFF05D0041A1E4 /* UtilityFunctions.swift */; };
+		0B45788929CB2B3B006CF162 /* KetoProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B45788829CB2B3B006CF162 /* KetoProductsViewController.swift */; };
+		0B45788B29CCF25A006CF162 /* VegetarianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B45788A29CCF25A006CF162 /* VegetarianViewController.swift */; };
+		0B45788D29CCF279006CF162 /* SugerFreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B45788C29CCF279006CF162 /* SugerFreeViewController.swift */; };
+		0B45788F29CE45B2006CF162 /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B45788E29CE45B2006CF162 /* ProductDetailsViewController.swift */; };
+		0B45789129D78172006CF162 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B45789029D78172006CF162 /* CartViewController.swift */; };
+		0B45789329DA0100006CF162 /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B45789229DA0100006CF162 /* CartTableViewCell.swift */; };
+		0B8672B129B4C1BF001134E0 /* ManagerHomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8672B029B4C1BF001134E0 /* ManagerHomePageViewController.swift */; };
+		0B8672B329B4C1E2001134E0 /* ManagerProductsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8672B229B4C1E2001134E0 /* ManagerProductsCollectionViewCell.swift */; };
+		0B8672B529B52B6B001134E0 /* ModifyProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8672B429B52B6B001134E0 /* ModifyProductViewController.swift */; };
+		0B8B436129EEDDF6004ACC53 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8B436029EEDDF6004ACC53 /* UserTableViewCell.swift */; };
+		0B8B436329EEDEC8004ACC53 /* UserRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8B436229EEDEC8004ACC53 /* UserRecipeViewController.swift */; };
+		0B8B436529EF3004004ACC53 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8B436429EF3004004ACC53 /* FavoriteViewController.swift */; };
+		0B94FBF129E6FB73001CD4BF /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B94FBF029E6FB73001CD4BF /* RecipeViewController.swift */; };
+		0B94FBF329E6FBE1001CD4BF /* RecipeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B94FBF229E6FBE1001CD4BF /* RecipeCollectionViewCell.swift */; };
+		0B94FBF529E75A1B001CD4BF /* RecipeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B94FBF429E75A1B001CD4BF /* RecipeDetailsViewController.swift */; };
+		0BCA2E0529C8E99800917DF0 /* ketoAvoid.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0BCA2E0229C8E99800917DF0 /* ketoAvoid.txt */; };
+		0BCA2E0629C8E99800917DF0 /* vegetarianAvoid.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0BCA2E0329C8E99800917DF0 /* vegetarianAvoid.txt */; };
+		0BCA2E0729C8E99800917DF0 /* sugerFreeAvoid.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0BCA2E0429C8E99800917DF0 /* sugerFreeAvoid.txt */; };
+		0BFA232529E45668001E50E1 /* AddRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFA232429E45668001E50E1 /* AddRecipeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B11A51829AE81410007A7DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B11A4F929AE81400007A7DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B11A50029AE81400007A7DD;
+			remoteInfo = KhiarSupermarket;
+		};
+		0B11A52229AE81410007A7DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B11A4F929AE81400007A7DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B11A50029AE81400007A7DD;
+			remoteInfo = KhiarSupermarket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B03A4C429BFA16200288DE3 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		0B03A4C629C25CE500288DE3 /* HealthInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthInfoViewController.swift; sourceTree = "<group>"; };
+		0B03A4C829C5E4E200288DE3 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		0B03A4CA29C60D4400288DE3 /* CustomerProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		0B10097F29B9FC060045B329 /* ProductIngredientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductIngredientsViewController.swift; sourceTree = "<group>"; };
+		0B11A50129AE81400007A7DD /* KhiarSupermarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KhiarSupermarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B11A50429AE81400007A7DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B11A50629AE81400007A7DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0B11A50829AE81400007A7DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0B11A50B29AE81400007A7DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B11A50D29AE81400007A7DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B11A51029AE81400007A7DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B11A51229AE81400007A7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B11A51729AE81410007A7DD /* KhiarSupermarketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KhiarSupermarketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B11A51B29AE81410007A7DD /* KhiarSupermarketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KhiarSupermarketTests.swift; sourceTree = "<group>"; };
+		0B11A52129AE81410007A7DD /* KhiarSupermarketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KhiarSupermarketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B11A52529AE81410007A7DD /* KhiarSupermarketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KhiarSupermarketUITests.swift; sourceTree = "<group>"; };
+		0B11A52729AE81410007A7DD /* KhiarSupermarketUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KhiarSupermarketUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0B2597CD29E8A2EB00060460 /* SearchedProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchedProductViewController.swift; sourceTree = "<group>"; };
+		0B268EB729B0C30100A7DE2D /* ManagerInterfaces.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ManagerInterfaces.storyboard; sourceTree = "<group>"; };
+		0B268EB929B0D15400A7DE2D /* AddProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductViewController.swift; sourceTree = "<group>"; };
+		0B268EBB29B1096500A7DE2D /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		0B3DA0A529AFCD8D0041A1E4 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		0B3DA0AB29AFD4090041A1E4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0B3DA0B029AFF05D0041A1E4 /* UtilityFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityFunctions.swift; sourceTree = "<group>"; };
+		0B45788829CB2B3B006CF162 /* KetoProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KetoProductsViewController.swift; sourceTree = "<group>"; };
+		0B45788A29CCF25A006CF162 /* VegetarianViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetarianViewController.swift; sourceTree = "<group>"; };
+		0B45788C29CCF279006CF162 /* SugerFreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugerFreeViewController.swift; sourceTree = "<group>"; };
+		0B45788E29CE45B2006CF162 /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
+		0B45789029D78172006CF162 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		0B45789229DA0100006CF162 /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		0B8672B029B4C1BF001134E0 /* ManagerHomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerHomePageViewController.swift; sourceTree = "<group>"; };
+		0B8672B229B4C1E2001134E0 /* ManagerProductsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerProductsCollectionViewCell.swift; sourceTree = "<group>"; };
+		0B8672B429B52B6B001134E0 /* ModifyProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyProductViewController.swift; sourceTree = "<group>"; };
+		0B8B436029EEDDF6004ACC53 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		0B8B436229EEDEC8004ACC53 /* UserRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRecipeViewController.swift; sourceTree = "<group>"; };
+		0B8B436429EF3004004ACC53 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		0B94FBF029E6FB73001CD4BF /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
+		0B94FBF229E6FBE1001CD4BF /* RecipeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCollectionViewCell.swift; sourceTree = "<group>"; };
+		0B94FBF429E75A1B001CD4BF /* RecipeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailsViewController.swift; sourceTree = "<group>"; };
+		0BCA2E0229C8E99800917DF0 /* ketoAvoid.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ketoAvoid.txt; sourceTree = "<group>"; };
+		0BCA2E0329C8E99800917DF0 /* vegetarianAvoid.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vegetarianAvoid.txt; sourceTree = "<group>"; };
+		0BCA2E0429C8E99800917DF0 /* sugerFreeAvoid.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sugerFreeAvoid.txt; sourceTree = "<group>"; };
+		0BFA232429E45668001E50E1 /* AddRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B11A4FE29AE81400007A7DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B268EBF29B130E000A7DE2D /* FirebaseDatabase in Frameworks */,
+				0B3DA0AF29AFD5A10041A1E4 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B11A51429AE81410007A7DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B11A51E29AE81410007A7DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B11A4F829AE81400007A7DD = {
+			isa = PBXGroup;
+			children = (
+				0B11A50329AE81400007A7DD /* KhiarSupermarket */,
+				0B11A51A29AE81410007A7DD /* KhiarSupermarketTests */,
+				0B11A52429AE81410007A7DD /* KhiarSupermarketUITests */,
+				0B11A50229AE81400007A7DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B11A50229AE81400007A7DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B11A50129AE81400007A7DD /* KhiarSupermarket.app */,
+				0B11A51729AE81410007A7DD /* KhiarSupermarketTests.xctest */,
+				0B11A52129AE81410007A7DD /* KhiarSupermarketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B11A50329AE81400007A7DD /* KhiarSupermarket */ = {
+			isa = PBXGroup;
+			children = (
+				0BCA2E0229C8E99800917DF0 /* ketoAvoid.txt */,
+				0BCA2E0429C8E99800917DF0 /* sugerFreeAvoid.txt */,
+				0BCA2E0329C8E99800917DF0 /* vegetarianAvoid.txt */,
+				0B268EB629B0C2B400A7DE2D /* Storyboards */,
+				0B11A50429AE81400007A7DD /* AppDelegate.swift */,
+				0B11A50629AE81400007A7DD /* SceneDelegate.swift */,
+				0B11A50829AE81400007A7DD /* ViewController.swift */,
+				0B11A50A29AE81400007A7DD /* Main.storyboard */,
+				0B11A50D29AE81400007A7DD /* Assets.xcassets */,
+				0B11A50F29AE81400007A7DD /* LaunchScreen.storyboard */,
+				0B11A51229AE81400007A7DD /* Info.plist */,
+				0B3DA0AB29AFD4090041A1E4 /* GoogleService-Info.plist */,
+				0B3DA0A529AFCD8D0041A1E4 /* SignInViewController.swift */,
+				0B3DA0B029AFF05D0041A1E4 /* UtilityFunctions.swift */,
+				0B268EB929B0D15400A7DE2D /* AddProductViewController.swift */,
+				0B268EBB29B1096500A7DE2D /* HomePageViewController.swift */,
+				0B8672B029B4C1BF001134E0 /* ManagerHomePageViewController.swift */,
+				0B8672B229B4C1E2001134E0 /* ManagerProductsCollectionViewCell.swift */,
+				0B8672B429B52B6B001134E0 /* ModifyProductViewController.swift */,
+				0B10097F29B9FC060045B329 /* ProductIngredientsViewController.swift */,
+				0B03A4C429BFA16200288DE3 /* UserProfileViewController.swift */,
+				0B03A4C629C25CE500288DE3 /* HealthInfoViewController.swift */,
+				0B03A4C829C5E4E200288DE3 /* ProductsViewController.swift */,
+				0B03A4CA29C60D4400288DE3 /* CustomerProductCollectionViewCell.swift */,
+				0B45788829CB2B3B006CF162 /* KetoProductsViewController.swift */,
+				0B45788A29CCF25A006CF162 /* VegetarianViewController.swift */,
+				0B45788C29CCF279006CF162 /* SugerFreeViewController.swift */,
+				0B45788E29CE45B2006CF162 /* ProductDetailsViewController.swift */,
+				0B45789029D78172006CF162 /* CartViewController.swift */,
+				0B45789229DA0100006CF162 /* CartTableViewCell.swift */,
+				0BFA232429E45668001E50E1 /* AddRecipeViewController.swift */,
+				0B94FBF029E6FB73001CD4BF /* RecipeViewController.swift */,
+				0B94FBF229E6FBE1001CD4BF /* RecipeCollectionViewCell.swift */,
+				0B94FBF429E75A1B001CD4BF /* RecipeDetailsViewController.swift */,
+				0B2597CD29E8A2EB00060460 /* SearchedProductViewController.swift */,
+				0B8B436029EEDDF6004ACC53 /* UserTableViewCell.swift */,
+				0B8B436229EEDEC8004ACC53 /* UserRecipeViewController.swift */,
+				0B8B436429EF3004004ACC53 /* FavoriteViewController.swift */,
+			);
+			path = KhiarSupermarket;
+			sourceTree = "<group>";
+		};
+		0B11A51A29AE81410007A7DD /* KhiarSupermarketTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B11A51B29AE81410007A7DD /* KhiarSupermarketTests.swift */,
+			);
+			path = KhiarSupermarketTests;
+			sourceTree = "<group>";
+		};
+		0B11A52429AE81410007A7DD /* KhiarSupermarketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0B11A52529AE81410007A7DD /* KhiarSupermarketUITests.swift */,
+				0B11A52729AE81410007A7DD /* KhiarSupermarketUITestsLaunchTests.swift */,
+			);
+			path = KhiarSupermarketUITests;
+			sourceTree = "<group>";
+		};
+		0B268EB629B0C2B400A7DE2D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0B268EB729B0C30100A7DE2D /* ManagerInterfaces.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B11A50029AE81400007A7DD /* KhiarSupermarket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B11A52B29AE81410007A7DD /* Build configuration list for PBXNativeTarget "KhiarSupermarket" */;
+			buildPhases = (
+				0B11A4FD29AE81400007A7DD /* Sources */,
+				0B11A4FE29AE81400007A7DD /* Frameworks */,
+				0B11A4FF29AE81400007A7DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KhiarSupermarket;
+			packageProductDependencies = (
+				0B3DA0AE29AFD5A10041A1E4 /* FirebaseAuth */,
+				0B268EBE29B130E000A7DE2D /* FirebaseDatabase */,
+			);
+			productName = KhiarSupermarket;
+			productReference = 0B11A50129AE81400007A7DD /* KhiarSupermarket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B11A51629AE81410007A7DD /* KhiarSupermarketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B11A52E29AE81410007A7DD /* Build configuration list for PBXNativeTarget "KhiarSupermarketTests" */;
+			buildPhases = (
+				0B11A51329AE81410007A7DD /* Sources */,
+				0B11A51429AE81410007A7DD /* Frameworks */,
+				0B11A51529AE81410007A7DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B11A51929AE81410007A7DD /* PBXTargetDependency */,
+			);
+			name = KhiarSupermarketTests;
+			productName = KhiarSupermarketTests;
+			productReference = 0B11A51729AE81410007A7DD /* KhiarSupermarketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0B11A52029AE81410007A7DD /* KhiarSupermarketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B11A53129AE81410007A7DD /* Build configuration list for PBXNativeTarget "KhiarSupermarketUITests" */;
+			buildPhases = (
+				0B11A51D29AE81410007A7DD /* Sources */,
+				0B11A51E29AE81410007A7DD /* Frameworks */,
+				0B11A51F29AE81410007A7DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B11A52329AE81410007A7DD /* PBXTargetDependency */,
+			);
+			name = KhiarSupermarketUITests;
+			productName = KhiarSupermarketUITests;
+			productReference = 0B11A52129AE81410007A7DD /* KhiarSupermarketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B11A4F929AE81400007A7DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					0B11A50029AE81400007A7DD = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					0B11A51629AE81410007A7DD = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 0B11A50029AE81400007A7DD;
+					};
+					0B11A52029AE81410007A7DD = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 0B11A50029AE81400007A7DD;
+					};
+				};
+			};
+			buildConfigurationList = 0B11A4FC29AE81400007A7DD /* Build configuration list for PBXProject "KhiarSupermarket" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B11A4F829AE81400007A7DD;
+			packageReferences = (
+				0B3DA0AD29AFD5A10041A1E4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				0B268EBD29B130E000A7DE2D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 0B11A50229AE81400007A7DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B11A50029AE81400007A7DD /* KhiarSupermarket */,
+				0B11A51629AE81410007A7DD /* KhiarSupermarketTests */,
+				0B11A52029AE81410007A7DD /* KhiarSupermarketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B11A4FF29AE81400007A7DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BCA2E0629C8E99800917DF0 /* vegetarianAvoid.txt in Resources */,
+				0B11A51129AE81400007A7DD /* LaunchScreen.storyboard in Resources */,
+				0B268EB829B0C30100A7DE2D /* ManagerInterfaces.storyboard in Resources */,
+				0BCA2E0729C8E99800917DF0 /* sugerFreeAvoid.txt in Resources */,
+				0B3DA0AC29AFD4090041A1E4 /* GoogleService-Info.plist in Resources */,
+				0B11A50E29AE81400007A7DD /* Assets.xcassets in Resources */,
+				0B11A50C29AE81400007A7DD /* Main.storyboard in Resources */,
+				0BCA2E0529C8E99800917DF0 /* ketoAvoid.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B11A51529AE81410007A7DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B11A51F29AE81410007A7DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B11A4FD29AE81400007A7DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B94FBF329E6FBE1001CD4BF /* RecipeCollectionViewCell.swift in Sources */,
+				0B8B436129EEDDF6004ACC53 /* UserTableViewCell.swift in Sources */,
+				0B45789329DA0100006CF162 /* CartTableViewCell.swift in Sources */,
+				0B3DA0A629AFCD8E0041A1E4 /* SignInViewController.swift in Sources */,
+				0B03A4CB29C60D4400288DE3 /* CustomerProductCollectionViewCell.swift in Sources */,
+				0B45788929CB2B3B006CF162 /* KetoProductsViewController.swift in Sources */,
+				0B03A4C529BFA16200288DE3 /* UserProfileViewController.swift in Sources */,
+				0B03A4C929C5E4E200288DE3 /* ProductsViewController.swift in Sources */,
+				0B45788F29CE45B2006CF162 /* ProductDetailsViewController.swift in Sources */,
+				0B45788B29CCF25A006CF162 /* VegetarianViewController.swift in Sources */,
+				0B2597CE29E8A2EB00060460 /* SearchedProductViewController.swift in Sources */,
+				0B268EBC29B1096500A7DE2D /* HomePageViewController.swift in Sources */,
+				0B45788D29CCF279006CF162 /* SugerFreeViewController.swift in Sources */,
+				0B11A50929AE81400007A7DD /* ViewController.swift in Sources */,
+				0B268EBA29B0D15400A7DE2D /* AddProductViewController.swift in Sources */,
+				0B11A50529AE81400007A7DD /* AppDelegate.swift in Sources */,
+				0B45789129D78172006CF162 /* CartViewController.swift in Sources */,
+				0B03A4C729C25CE500288DE3 /* HealthInfoViewController.swift in Sources */,
+				0B8B436529EF3004004ACC53 /* FavoriteViewController.swift in Sources */,
+				0B3DA0B129AFF05D0041A1E4 /* UtilityFunctions.swift in Sources */,
+				0B8B436329EEDEC8004ACC53 /* UserRecipeViewController.swift in Sources */,
+				0B10098029B9FC060045B329 /* ProductIngredientsViewController.swift in Sources */,
+				0B94FBF529E75A1B001CD4BF /* RecipeDetailsViewController.swift in Sources */,
+				0B8672B529B52B6B001134E0 /* ModifyProductViewController.swift in Sources */,
+				0B94FBF129E6FB73001CD4BF /* RecipeViewController.swift in Sources */,
+				0B8672B329B4C1E2001134E0 /* ManagerProductsCollectionViewCell.swift in Sources */,
+				0B8672B129B4C1BF001134E0 /* ManagerHomePageViewController.swift in Sources */,
+				0BFA232529E45668001E50E1 /* AddRecipeViewController.swift in Sources */,
+				0B11A50729AE81400007A7DD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B11A51329AE81410007A7DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B11A51C29AE81410007A7DD /* KhiarSupermarketTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B11A51D29AE81410007A7DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B11A52829AE81410007A7DD /* KhiarSupermarketUITestsLaunchTests.swift in Sources */,
+				0B11A52629AE81410007A7DD /* KhiarSupermarketUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B11A51929AE81410007A7DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B11A50029AE81400007A7DD /* KhiarSupermarket */;
+			targetProxy = 0B11A51829AE81410007A7DD /* PBXContainerItemProxy */;
+		};
+		0B11A52329AE81410007A7DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B11A50029AE81400007A7DD /* KhiarSupermarket */;
+			targetProxy = 0B11A52229AE81410007A7DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B11A50A29AE81400007A7DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B11A50B29AE81400007A7DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B11A50F29AE81400007A7DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B11A51029AE81400007A7DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B11A52929AE81410007A7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B11A52A29AE81410007A7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B11A52C29AE81410007A7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q75JSB83BQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KhiarSupermarket/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lujain.KhiarSupermarket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B11A52D29AE81410007A7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q75JSB83BQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KhiarSupermarket/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lujain.KhiarSupermarket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0B11A52F29AE81410007A7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lujain.KhiarSupermarketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KhiarSupermarket.app/KhiarSupermarket";
+			};
+			name = Debug;
+		};
+		0B11A53029AE81410007A7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lujain.KhiarSupermarketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KhiarSupermarket.app/KhiarSupermarket";
+			};
+			name = Release;
+		};
+		0B11A53229AE81410007A7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lujain.KhiarSupermarketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KhiarSupermarket;
+			};
+			name = Debug;
+		};
+		0B11A53329AE81410007A7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lujain.KhiarSupermarketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KhiarSupermarket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B11A4FC29AE81400007A7DD /* Build configuration list for PBXProject "KhiarSupermarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B11A52929AE81410007A7DD /* Debug */,
+				0B11A52A29AE81410007A7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B11A52B29AE81410007A7DD /* Build configuration list for PBXNativeTarget "KhiarSupermarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B11A52C29AE81410007A7DD /* Debug */,
+				0B11A52D29AE81410007A7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B11A52E29AE81410007A7DD /* Build configuration list for PBXNativeTarget "KhiarSupermarketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B11A52F29AE81410007A7DD /* Debug */,
+				0B11A53029AE81410007A7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B11A53129AE81410007A7DD /* Build configuration list for PBXNativeTarget "KhiarSupermarketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B11A53229AE81410007A7DD /* Debug */,
+				0B11A53329AE81410007A7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0B268EBD29B130E000A7DE2D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		0B3DA0AD29AFD5A10041A1E4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0B268EBE29B130E000A7DE2D /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B3DA0AD29AFD5A10041A1E4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		0B3DA0AE29AFD5A10041A1E4 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B3DA0AD29AFD5A10041A1E4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0B11A4F929AE81400007A7DD /* Project object */;
+}
